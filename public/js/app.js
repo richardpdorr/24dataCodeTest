@@ -10847,11 +10847,11 @@ var dropDownOnChange = function dropDownOnChange(change) {
     if (change.selectID == 'sort-cols-dd') {
         var e = document.getElementById("sort-order-dd");
         var sortOrder = e.options[e.selectedIndex].value;
-        getUrl = location.href + '/' + change.newValue + '/' + sortOrder;
+        getUrl = location.href + change.newValue + '/' + sortOrder;
     } else {
         var _e = document.getElementById("sort-cols-dd");
         var sortCol = _e.options[_e.selectedIndex].value;
-        getUrl = location.href + '/' + sortCol + '/' + change.newValue;
+        getUrl = location.href + sortCol + '/' + change.newValue;
     }
 
     __WEBPACK_IMPORTED_MODULE_3_axios___default()({
