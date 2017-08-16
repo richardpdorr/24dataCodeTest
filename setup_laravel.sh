@@ -3,7 +3,7 @@
 projectname=$1
 localuser=$2
 localpass=$3
-git clone -o laravel -b 5.3 https://github.com/laravel/laravel.git ${projectname} >/dev/null
+git clone https://github.com/richardpdorr/24dataCodeTest.git ${projectname} >/dev/null
 cd ${projectname}
 rm -rf .git
 composer install >/dev/null

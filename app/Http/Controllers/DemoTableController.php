@@ -49,10 +49,10 @@ class DemoTableController extends Controller
 
             $colName = $sortBy->col;
 
-            if($sortBy->order == -1){
+            if($sortBy->order == 1){
                 $first = strtolower($a->$colName);
                 $second = strtolower($b->$colName);
-            }else if($sortBy->order == 1){
+            }else if($sortBy->order == -1){
                 $first = strtolower($b->$colName);
                 $second = strtolower($a->$colName);
             }

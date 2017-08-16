@@ -10842,21 +10842,16 @@ var options = [{
 }];
 
 var dropDownOnChange = function dropDownOnChange(change) {
-    console.log(change);
-
-    var e = document.getElementById("sort-order-dd");
-    var sortOrder = e.options[e.selectedIndex].value;
-
     var getUrl = void 0;
 
     if (change.selectID == 'sort-cols-dd') {
-        var _e = document.getElementById("sort-order-dd");
-        var _sortOrder = _e.options[_e.selectedIndex].value;
-        getUrl = '/' + change.newValue + '/' + _sortOrder;
+        var e = document.getElementById("sort-order-dd");
+        var sortOrder = e.options[e.selectedIndex].value;
+        getUrl = location.href + '/' + change.newValue + '/' + sortOrder;
     } else {
-        var _e2 = document.getElementById("sort-cols-dd");
-        var sortCol = _e2.options[_e2.selectedIndex].value;
-        getUrl = '/' + sortCol + '/' + change.newValue;
+        var _e = document.getElementById("sort-cols-dd");
+        var sortCol = _e.options[_e.selectedIndex].value;
+        getUrl = location.href + '/' + sortCol + '/' + change.newValue;
     }
 
     __WEBPACK_IMPORTED_MODULE_3_axios___default()({

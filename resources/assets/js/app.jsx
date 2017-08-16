@@ -123,11 +123,11 @@ var dropDownOnChange = function(change) {
         if(change.selectID == 'sort-cols-dd'){
             let e = document.getElementById("sort-order-dd");
             let sortOrder = e.options[e.selectedIndex].value;
-            getUrl = '/'+change.newValue+'/'+sortOrder;
+            getUrl = location.href+'/'+change.newValue+'/'+sortOrder;
         }else{
             let e = document.getElementById("sort-cols-dd");
             let sortCol = e.options[e.selectedIndex].value;
-            getUrl = '/'+sortCol+'/'+change.newValue;
+            getUrl = location.href+'/'+sortCol+'/'+change.newValue;
         }
 
         axios({

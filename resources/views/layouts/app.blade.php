@@ -12,7 +12,7 @@
 @yield('app-content')
 
 @include('footer')
-<script src="/js/app.js"></script>
+<script src="{{asset('js/app.js')}}"></script>
 <script>console.log(tableData)</script>
 </body>
 </html>
