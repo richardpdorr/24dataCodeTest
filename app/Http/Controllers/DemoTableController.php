@@ -38,7 +38,7 @@ class DemoTableController extends Controller
         ]);
 
         if(!$returnJSON){
-            return View::make('test')->with('tableData', $tableData);
+            return View::make('index')->with('tableData', $tableData);
         }else{
             return json_encode($tableData);
         }
