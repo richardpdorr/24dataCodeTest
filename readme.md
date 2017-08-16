@@ -36,7 +36,7 @@ Finally, run
 
 in the new project directory, to download package dependencies. (Doesn't work with Cygwin without patch, so was left out of the shell script).
 
-##Usage
+## Usage
 If you are running on local...
 
     ..and are not using a virtual host
@@ -51,10 +51,10 @@ Navigate to: <code>http://{vhost}</code> where vhost points to public folder
     
 Navigate to: <code> http://{webserver} </code>
 
-##PHP Version
+## PHP Version
 5.6 or higher.
 
-##Integrated Frameworks / Packages
+## Integrated Frameworks / Packages
 
 JS
 - React
