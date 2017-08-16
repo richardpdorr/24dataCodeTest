@@ -41,15 +41,15 @@ If you are running on local...
 
     ..and are not using a virtual host
 
-Navigate to: <code>http://localhost/{projDir}/public/
+Navigate to: <code>http://localhost/{projDir}/public</code>
 
     ..and are using a virtual host
     
-Navigate to: <code>http://{vhost}/</code> where vhost points to public folder
+Navigate to: <code>http://{vhost}</code> where vhost points to public folder
 
     ..or if hosted on web server
     
-Navigate to: <code>http://{webserver}/</code>
+Navigate to: <code> http://{webserver} </code>
 
 ##PHP Version
 5.6 or higher.
