@@ -49,7 +49,7 @@ Navigate to: <code>http://{vhost}/</code> where vhost points to public folder
 
     ..or if hosted on web server
     
-Navigate to: <code>http://{webserver}/
+Navigate to: <code>http://{webserver}/</code>
 
 ##PHP Version
 5.6 or higher.
