@@ -67,3 +67,10 @@ JS
 PHP
 - Laravel
 - PHP Vars to JS Transformer
+
+## Short Description of Functionality
+- Creates table from JSON file on root directory, defaulting LName Descending.
+- Used Property names from JSON as column names, for scalable purposes. (Can inject another JSON file, will generate table)
+- Removed frontend sort functionality built in with react-table.
+- Created dynamic backend PHP Sort functionality, called using XHTTP Request (axios), to fetch sorted JSON.
+- Renders new table with fetched JSON.
