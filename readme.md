@@ -37,6 +37,8 @@ Finally, run
 in the new project directory, to download package dependencies. (Doesn't work with Cygwin without patch, so was left out of the shell script).
 
 ## Usage
+**IMPORTANT: Routes are case-sensitive**
+
 If you are running on local...
 
     ..and are not using a virtual host
